@@ -15,11 +15,19 @@ function CustomeSelect() {
   return (
     <>
       {isEncryptSelected ? (
-        <MDBBtn className="me-1 mt-3 ms-5" onClick={handleClick}>
+        <MDBBtn
+          className="me-1 mt-3 ms-5"
+          onClick={handleClick}
+          color="success"
+        >
           Decrypt
         </MDBBtn>
       ) : (
-        <MDBBtn className="me-1 mt-3 ms-5" onClick={handleClick}>
+        <MDBBtn
+          className="me-1 mt-3 ms-5"
+          color="success"
+          onClick={handleClick}
+        >
           Encrypt
         </MDBBtn>
       )}
