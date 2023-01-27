@@ -24,7 +24,7 @@ const Encrypt = () => {
 
   return (
     <>
-      <h1 className="mb-4">Encrypt</h1>
+      <h1 className="mb-4 text-uppercase">Encrypt</h1>
       <MDBRow className="align-items-center">
         <MDBCol size="5">
           <MDBTextArea
